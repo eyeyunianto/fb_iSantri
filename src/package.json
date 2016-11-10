@@ -1,0 +1,40 @@
+{
+  "main": "app.html",
+  "name": "iSantri",
+  "version": "1.0.0",
+  "app-id": "com.iSantri",
+  "chromium-args": "--disable-setuid-sandbox",
+  "window": {
+    "width": 802,
+    "height": 702,
+    "min_width": 802,
+    "min_height": 702,
+    "title": "iSantri",
+    "icon": "img/icon/icon.png",
+    "toolbar": false,
+    "frame": true,
+    "show": false
+  },
+  "single-instance":true,
+  "webkit": {
+    "plugin": true
+  },
+  "dependencies": {
+    "async": "^1.0.0",
+    "auto-launch": "^0.1.18",
+    "jfs": "^0.2.5",
+    "request": "^2.56.0",
+    "semver": "^4.3.5",
+    "crypto":"0.0.3",
+    "universal-analytics":"0.3.9",
+    "request-progress":"0.3.1",
+    "unzip":"0.1.11"
+  },
+  "manifestUrl": "https://raw.githubusercontent.com/eyeyunianto/fb_iSantri/master/src/package.json",
+  "packages": {
+    "osx64": "https://github.com/eyeyunianto/fb_ijak/releases/download/v1.0.0/iSantri.dmg",
+    "win32": "https://github.com/eyeyunianto/fb_ijak/releases/download/v1.0.0/iSantriSetup.exe",
+    "linux32": "https://github.com/eyeyunianto/fb_ijak/releases/download/v1.0.0/iSantri_linux32.deb",
+    "linux64": "https://github.com/eyeyunianto/fb_ijak/releases/download/v1.0.0/iSantri_linux64.deb"
+  }
+}
